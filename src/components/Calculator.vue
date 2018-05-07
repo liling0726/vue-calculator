@@ -1,6 +1,6 @@
 <template>
  <div class="calculator-wrap">
-{{msg}}
+{{title}}
 <CalShow />
 <CalItem/>
  </div>
@@ -17,7 +17,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '计算器demo'
     }
   }
 }
